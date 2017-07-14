@@ -1,0 +1,69 @@
+                              <div id="top-trend" class="tab-pane fade in active">
+										<li><a href="#">Liu Xiaobo</a><p>China's Nobel laureate Liu Xiaobo dies: official ‑ aljazeera.com</p></li>
+										<li><a href="#">Ravi Shastri</a><p>Trouble Brewing? Despite Zaheer, Shastri to Pitch for Bharat Arun ‑ thequint.com</p></li>
+										<li><a href="#">Rajnath Singh</a><p>PM Modi's Top Ministers To Brief All Parties Today On Standoff With China ‑ ndtv.com</p></li>
+							  </div>
+							  <div id="politics" class="tab-pane fade">
+										<li><a href="#">Jimmy Carter</a><p>Former president Carter hospitalized in Canada ‑ washingtonpost.com</p></li>
+										<li><a href="#">Kashmir Valley</a><p>Kashmir dispute: India rejects China offer, says ready for dialogue… ‑ indianexpress.com</p></li>
+										<li><a href="#">Paris Agreement</a><p>Trump hints at climate deal shift in Paris talks - BBC News ‑ bbc.com</p></li>
+							  </div>
+							  <div id="science" class="tab-pane fade">
+									  <li><a href="#">IUCAA</a><p>scientists discover new supercluster of galaxies, call it… ‑ in.news.yahoo.com</p></li>
+									  <li><a href="#">Asus ZenFone</a><p>Asus bets big on augmented reality,unveils Zenfone AR in India ‑ moneycontrol.com</p></li>
+									  <li><a href="#">Swansea University</a><p>India will be in trouble if breakaway Antarctica iceberg leads to sea… ‑ hindustantimes.com</p></li>	
+							  </div>
+							    <div id="sports" class="tab-pane fade">
+									  <li><a href="#">Wimbledon</a><p>Wimbledon - Friday Schedule: Querrey-Cilic and Federer-Berdych ‑ tennisworldusa.org</p></li>
+									  <li><a href="#"Board of Control for Cricket in India></a><p>Legal contracts of Ravi Shastri, Zaheer Khan, Rahul Dravid put on hold: CoA ‑ inuth.com</p></li>
+									  <li><a href="#"Venus Williams></a><p>Serena Williams Backing Venus, Wants Title To Stay In Family ‑ news18.com</p></li>
+							</div>
+							    <div id="entertainment" class="tab-pane fade">
+									  <li><a href="#">Ranveer Singh</a><p>Ranveer Singh has left Priyanka Chopra and Amitabh Bachchan… ‑ indianexpress.com</p></li>
+									  <li><a href="#">Saif Ali Khan</a><p>Saif Ali Khan to make his digital debut with Netflix series… ‑ indianexpress.com</p></li>
+									  <li><a href="#">Swansea University</a><p>India will be in trouble if breakaway Antarctica iceberg leads to sea… ‑ hindustantimes.com</p></li>
+								
+							  </div>
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  <li><a href="#"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span></a></li>
+							  <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+							  <li><a href="#"><span class="glyphicon glyphicon-filter" aria-hidden="true"></span></a></li>
+							  <li><a href="#"><span class="glyphicon glyphicon-queen" aria-hidden="true"></span></a></li>
+							  <li><a href="#"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a></li>
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+								<h5  role="presentation"><a href="#"><img src="saku.jpg">Shushant Singh</a><small>birthday today. </small></h5>
+								<h5 role="presentation"><a href="#"><img src="saku.jpg">3 Request</a><small>from manisha and 2 other. </small></h5>
+								<h5 role="presentation"><a href="#"><img src="saku.jpg">Aunrag Mishra</a><small>poked you. </small></h5>

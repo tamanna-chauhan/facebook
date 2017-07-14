@@ -1,0 +1,93 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 16px;
+     margin-bottom: 16px;
+
+}
+.box {
+  height: 500px;
+  background-color: #e7e7e7;
+  border: 1px solid rgba(0,0,0,0.87);
+}
+
+/* Add Custom CSS Below this line */
+
+.container {
+	padding: 5px; 
+    height: 700px;
+    
+  }
+  #main,#menu,#sidebar {
+  	margin: 10px 10px 10px 10px;
+     height: 600px;
+  }
+  #main {
+	  background-color:#e9ebee;
+      overflow: auto;	  
+  }
+
+  #menu { background-color: #e9ebee; }
+  #sidebar { background-color: #e9ebee; }
+  
+ #header {
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white !important;
+}
+#header ul .glyphicon {
+    font-size: 20px;
+}
+.pull-right {
+    float: right!important;
+}
+.glyphicon {
+color: black;
+}
+.list-heading {
+    padding: 20px 15px 0 50px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.btn_search {
+margin-left: -7px;
+background-color: #e9ebee;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.glyphicons {
+	margin: 0 0 15px 0;
+  background-color: red;
+  font-size:10px;
+}
+small{
+margin: 10px;
+}
+.video{
+margin-left: 20px;
+}
+
+
+
