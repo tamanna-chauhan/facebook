@@ -8,7 +8,7 @@
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-			<title>Bootstrap 101 Template</title>
+			<title>Facebook-T</title>
 
 			<!-- Bootstrap -->
 			<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,8 +19,7 @@
   <body>
     
         
-    <div  id="wrapper">
-	
+    
 	
 		
 		<!--.........................................header area............................................................................................-->
@@ -90,11 +89,13 @@
 
 		        
 				<!--...........MENU START.............-->
-             <div class="row">
-                 <div class="col-md-3">
+<div class="container-fluid">
+	        
+		<div class="row">
+                 <div class="hidden-xs col-sm-3 col-md-3">
                     <div id="menu">
                     	<ul class=" list-heading nav nav-pills nav-stacked">
-                           <li role="presentation"><a href="#"><img src="tanu.jpg">Tamanna Rajput<img src="online.jpg"id="show-btn"></a></li>
+                           <li role="presentation"><a href="#"><img src="tanu.jpg">Tamanna Rajput<img src="online.png"id="show-btn"></a></li>
 						   <li role="presentation"><a href="#"><img src="feed.jpg">News Feed</a></li>
 						   <li role="presentation"><a href="#"><img src="download12.png">Messenger </a></li>
 						   <p>SHORTCUTS</p>
@@ -125,7 +126,7 @@
 				 
 <!-------...............................................................MAIN START......................................................................-->
 
-             <div class="col-md-5">
+             <div class="col-xs-12 col-sm-7 col-md-5">
                <div id="main">
 			   
 			   <!--.................first post..................-->
@@ -135,8 +136,17 @@
 							<div role="presentation"><span class=" glyphicon glyphicon-pencil"></span><a href="#">Create post</a><span class="video glyphicon glyphicon-facetime-video"></span><a href="#">Photo/Video</div>
 						  </div>
 						  <div class="panel-body">
-							 <div class=" panel-body"><input type="text" class="input-main form-control" placeholder="Share something here Tamanna"></div>
-		
+							 <div class=" panel-body">
+							 
+							 <div class="col-md-2">
+							   <img src="tanu12.jpg"class="profile-pic">
+							 </div>
+							 <div class="col-md-8">
+							 <input type="text" class="input-main form-control" placeholder="Share something here Tamanna.....">
+							 </div>
+							 <div class="col-md-2">
+							   
+							 </div>		
 						  </div>
 						  <div class="panel-footer"><img src="photo.jpg">photo/videos<img src="icon.jpg">   feeling/activity</div>
 				   </div>
@@ -145,6 +155,7 @@
 					<div class="panel panel-default">
 						  <div class="panel-heading">
 							<h4  role="presentation"><a href="#"><img src="rajni.jpg">Rajni</a><small>feeling positive.</small></h4>
+							<small class="time">Today at 10:35pm.<span class="glyphicon glyphicon-globe" aria-hidden="true"></small>
 						  </div>
 						  <div class="panel-body">
 							 <div>
@@ -155,20 +166,39 @@
 							 </div>
 							 <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
 								<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+								<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+								<h4><small class="number-comment">25likes   1comment  </small></h4>
 							</div>
 						  </div>
-						  <div class="panel-footer">Add a comment<input type="text" class="form-control" placeholder="Write comment "style="width: 600px"></div>
-				   </div>
+						  <div class="panel-footer">
+							    <div class="media">
+								  <div class="media-left">
+								  <a href="#"><img class="media-heading" src="saku.jpg" alt="..."></a>
+								 </div>
+								 <div>
+								 <h5 class="media-heading"><p class="comment"><span><a href="#">Sakshi</a></span>Absolutely right</p></h5>
+								 <div>
+								 <span><small><a href="#">Like</a></span><span><a href="#">Comment</a></small></span>
+								 </div>
+								 <input style="width: 100%;margin-top: 15px;"placeholder="write a comment...">
+								 </div>
+							
+						  </div>
+						  </div>
+				         
+				 </div>
 				   
 				   <!-------- third post----------------->
 				   <div class="panel panel-default">
 						  <div class="panel-heading">
-							<h4  role="presentation"><a href="#"><img src="shivani.jpg">shivani</a><small>update her profile photo.</small><sm</h4>
+							<h4  role="presentation"><a href="#"><img src="shivani.jpg">shivani</a><small>update her profile photo.</small></h4>
+							<small class="time">55min.<span class="glyphicon glyphicon-globe" aria-hidden="true"></small>
 						  </div>
 						  <div class="panel-body">
 							 <div><img src="ta.jpeg" class="image-post img-responsive" alt="Responsive image"></div>
 							 <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
 								<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+								<h4><small class="number-comment">10 likes   4comment   1Share</small></h4>
 							</div>
 						  </div>
 						  <div class="panel-footer">Add a comment<input type="text" class="form-control" placeholder="Write comment "style="width: 600px"></div>
@@ -179,6 +209,7 @@
 				   <div class="panel panel-default">
 						  <div class="panel-heading">
 							<h4  role="presentation"><a href="#"><img src="saku.jpg">Sakshi</a><small>posted a video. </small></h4>
+							<small class="time">11hrs.Gadholi,Yamuna Nagar<span class="glyphicon glyphicon-globe" aria-hidden="true"></small>
 						  </div>
 						  <div class="panel-body">
 												 <!-- 16:9 aspect ratio -->
@@ -187,13 +218,16 @@
                                      </div>
 							 <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
 								<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                                <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+								<h4><small class="number-comment">100 likes   25comment   3Share</small></h4>
 							</div>
 						  </div>
 						  <div class="panel-footer">Add a comment<input type="text" class="form-control" placeholder="Write comment "style="width: 600px"></div>
 					</div>
 					<div class="panel panel-default">
 						  <div class="panel-heading">
-							<h4  role="presentation"><a href="#"><img src="tanu.jpg">Tamanna</a><small>feeling positive.</small></h4>
+							<h4  role="presentation"><a href="#"><img src="tanu.jpg">Tamanna</a><small>shared her album.</small></h4>
+							<small class="time">Yesterday at 12:00am.<span class="glyphicon glyphicon-globe" aria-hidden="true"></small>
 						  </div>
 						  <div class="panel-body">
 							 <div>
@@ -245,7 +279,10 @@
 							 </div>
 							 <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
 								<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+								<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>share</span>
+								<h4><small class="number-comment"><p>150 likes   45comment </p></small></h4>
 							</div>
+
 						  </div>
 						  <div class="panel-footer">Add a comment<input type="text" class="form-control" placeholder="Write comment "style="width: 600px"></div>
 				   </div>
@@ -253,18 +290,55 @@
 				</div>
 		</div>		
 			 
-			 
+			 </div>
 <!------------......................................................SIDEBAR.............................................................................-->
-			  <div class="col-md-2">
+			  <div class="hidden-xs col-sm-2 col-md-2">
                     <div id="sidebar">
-							<div>
+							<div class="special-notification">
 							    <h5  role="presentation"><a href="#"><img src="gift.png"class="special-img">Shushant</a><small>birthday today. </small></h5>
-								<h5 role="presentation"><a href="#"><img src="mnsha.jpg"class="special-img">3 Request</a><small>from manisha and 2 other. </small></h5>
 								<h5 role="presentation"><a href="#"><img src="anurag.jpg"class="special-img">Aunrag</a><small>poked you. </small></h5>
 							</div>
 							
-							<!----------current affairs----------------->
-						<div>	
+					 
+					 
+					 <!-------------crousel area---------------------->
+					 <div class="carousel-sidebar">
+						      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+										        	  <!-- Indicators -->
+								     <ol class="carousel-indicators">
+										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+										<li data-target="#myCarousel" data-slide-to="1"></li>
+										<li data-target="#myCarousel" data-slide-to="2"></li>
+			     					 </ol>
+											  <!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												  <img src="crsl1.jpeg" alt="Los Angeles">
+											</div>
+
+											<div class="item">
+												  <img src="crsl2.jpeg" alt="Chicago">
+											</div>
+
+											<div class="item">
+												  <img src="crsl3.jpeg" alt="New York">
+											</div>
+										</div>
+
+											  <!-- Left and right controls -->
+										<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+											<span class="glyphicon glyphicon-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										 <a class="right carousel-control" href="#myCarousel" data-slide="next">
+											<span class="glyphicon glyphicon-chevron-right"></span>
+											<span class="sr-only">Next</span>
+									    </a>
+								</div>
+					 </div>
+					 
+					   	<!----------current affairs----------------->
+						<div class="nav-sidebar">	
 							<ul class="nav nav-tabs">
 							  <li role="presentation"class="active" ><a href="#top-trend" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span></a></li>
 							  <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
@@ -302,66 +376,37 @@
 							  </div>
 							  
 						</div>	  
-					 </div>
-					 
-					 
-					 <!-------------crousel area---------------------->
-					 <div>
-						      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-										        	  <!-- Indicators -->
-								     <ol class="carousel-indicators">
-										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel" data-slide-to="1"></li>
-										<li data-target="#myCarousel" data-slide-to="2"></li>
-			     					 </ol>
-											  <!-- Wrapper for slides -->
-										<div class="carousel-inner">
-											<div class="item active">
-												  <img src="crsl1.jpeg" alt="Los Angeles">
-											</div>
-
-											<div class="item">
-												  <img src="crsl2.jpeg" alt="Chicago">
-											</div>
-
-											<div class="item">
-												  <img src="crsl3.jpeg" alt="New York">
-											</div>
-										</div>
-
-											  <!-- Left and right controls -->
-										<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-											<span class="glyphicon glyphicon-chevron-left"></span>
-											<span class="sr-only">Previous</span>
-										</a>
-										 <a class="right carousel-control" href="#myCarousel" data-slide="next">
-											<span class="glyphicon glyphicon-chevron-right"></span>
-											<span class="sr-only">Next</span>
-									    </a>
-								</div>
-					 </div>
 					 
 					 
                    </div>
+				  </div>
               </div>
 			  
 <!-----------------------------------------------------------last-bar.........-------------------------------------------------------......................-->
-			  <div class="col-md-2">
+			  <div class="hidden-xs hidden-sm col-md-2">
 					<div id="lastbar">
+					  <div>
+					  <h5  role="presentation"><a href="#">Top Movies</a></h5>
+					  <h5  role="presentation"><a href="#"><img src="movi1.jpg"><img src="movi2.jpg"><img src="movi3.jpg"></a></h5>
+					  <h5  role="presentation"><a href="#">Top Games</a></h5>
+					  <h5  role="presentation"><a href="#"><img src="game1.jpg"><img src="game2.jpg"><img src="game3.jpg"></a></h5>
+					  </div>
+					
+					
 						<ul class=" nav nav-pills nav-stacked">
-                           <li role="presentation"><a href="#"><img src="shivani.jpg">Shivani<img src="online.jpg"class="online-btn"></a></li>
-						   <li role="presentation"><a href="#"><img src="saku.jpg">Sakshi<img src="online.jpg"class="online-btn"></a></li>
-						   <li role="presentation"><a href="#"><img src="anurag.jpg">Anurag<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="rajni.jpg">Rajni<span class="bad badge">10m </span></a></li>
-							  <li role="presentation"><a href="#"><img src="rahul.jpg">Rahul<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="rajnish.jpg">Rajnesh<span class="bad badge">52m</span></a></li>
-							  <li role="presentation"><a href="#"><img src="atish.jpg">Atish<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="aman.jpg">Aman<span class="bad badge">30m</span></a></li>
-							  <li role="presentation"><a href="#"><img src="amir.jpg">Amir<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="shushnt.jpg">Shushant<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="niti.jpg">Nitika<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="adu.jpg">Aarzoo<img src="online.jpg"class="online-btn"></a></li>
-							  <li role="presentation"><a href="#"><img src="tanu.jpg">Manisha<img src="online.jpg"class="online-btn"></a></li>
+                           <li role="presentation"><a href="#"><img src="shivani.jpg"class="lastbar">Shivani<img src="online.png"class="online-btn"></a></li>
+						   <li role="presentation"><a href="#"><img src="saku.jpg"class="lastbar">Sakshi<img src="online.png"class="online-btn"></a></li>
+						   <li role="presentation"><a href="#"><img src="anurag.jpg"class="lastbar">Anurag<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="rajni.jpg"class="lastbar">Rajni<span class="bad badge">10m </span></a></li>
+							  <li role="presentation"><a href="#"><img src="rahul.jpg"class="lastbar">Rahul<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="rajnish.jpg"class="lastbar">Rajnesh<span class="bad badge">52m</span></a></li>
+							  <li role="presentation"><a href="#"><img src="atish.jpg"class="lastbar">Atish<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="aman.jpg"class="lastbar">Aman<span class="bad badge">30m</span></a></li>
+							  <li role="presentation"><a href="#"><img src="amir.jpg"class="lastbar">Amir<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="shushnt.jpg"class="lastbar">Shushant<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="niti.jpg"class="lastbar">Nitika<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="adu.jpg"class="lastbar">Aarzoo<img src="online.png"class="online-btn"></a></li>
+							  <li role="presentation"><a href="#"><img src="tanu.jpg"class="lastbar">Manisha<img src="online.png"class="online-btn"></a></li>
 							  
 						</ul>
 					</div>

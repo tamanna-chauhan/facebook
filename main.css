@@ -9,6 +9,9 @@ html,body {
 	width: 100%;
 	font-family: sans-serif;
 }
+body {
+background-color: #e9ebee;
+}
 
 
 #wrapper {
@@ -33,7 +36,7 @@ html,body {
   }
   #main,#menu,#sidebar,#lastbar {
   	margin: 10px 10px 10px 10px;
-     height: 900px;
+     height: 1000px;
   }
   #main {
 	  background-color:#e9ebee;
@@ -111,6 +114,34 @@ padding-top: 18px;
 .special-img{
 padding: 10px;
 }
+.special-notification
+{
+	background-color: white;
+}
+.carousel-sidebar {
+	background-color: white;
+	padding: 15px;
+}
+.nav-sidebar{
+	background-color:white;
+}
+.lastbar{
+   border-radius: 50px;
+   
+}
+.profile-pic{
+	
+	padding-top: 10px;
+}
+.time{
+	padding-left: 35px;
+	color: grey;
 
-
-
+}
+.media-heading{
+	padding-left: 35px;
+}
+.number-comment{
+	float: right;
+	
+}
